@@ -10,7 +10,7 @@ Ejercicio de Evaluación final del Modulo 4
   
   2. Obtener un libro por ID
   
-  3. CCrear un nuevo libro
+  3. Crear un nuevo libro
   
   4. Actualizar un libro por ID
   
