@@ -12,13 +12,13 @@ async function getConnection() {
 const connection = await mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: '3993yasmin',
   database: 'library_db',
 });
   connection.connect();
   return connection;
 }
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4500;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
@@ -42,6 +42,7 @@ app.get('/books', async (req, res) => {
 
 
 // Obtener un libro por ID
+
 app.get('/books/:id', async (req, res) => {
   const bookId = req.params.id;
 
@@ -65,6 +66,7 @@ app.get('/books/:id', async (req, res) => {
 
 
 // Crear un nuevo libro
+
 app.post('/books', async (req, res) => {
   const dataBook = req.body;
   const { title, author, genre, publication_year } = dataBook;
@@ -102,6 +104,7 @@ app.post('/books', async (req, res) => {
 });
 
 // Actualizar un libro por ID
+
 app.put('/books/:id', async (req, res) => {
   const dataBook = req.body;
   const { title, author, genre, publication_year } = dataBook;

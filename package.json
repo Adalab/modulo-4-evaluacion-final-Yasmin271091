@@ -1,5 +1,5 @@
 {
-  "name": "repaso-final",
+  "name": "evaluacion-final",
   "version": "0.0.1",
   "description": "Example of call to API with Express",
   "main": "index.js",
@@ -12,9 +12,16 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mysql2": "^3.5.1"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adalab/modulo-4-evaluacion-final-Yasmin271091.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adalab/modulo-4-evaluacion-final-Yasmin271091/issues"
+  },
+  "homepage": "https://github.com/Adalab/modulo-4-evaluacion-final-Yasmin271091#readme"
 }
- 
